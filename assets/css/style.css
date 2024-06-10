@@ -24,7 +24,7 @@ header {
 
 
 
-header nav a {
+header a {
     padding-top: 15px;
     margin: 0px 20px  0px 25px;
     float: right;
@@ -39,7 +39,7 @@ p {
     font-size: 16px;
 }
 
-.hero a {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;

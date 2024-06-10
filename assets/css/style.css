@@ -8,27 +8,29 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-    color: #d9dcd6;
-}
 
-.header a {
+
+header nav a {
     padding-top: 15px;
     margin: 0px 20px  0px 25px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
-    margin-left: 25px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -37,7 +39,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.hero a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
